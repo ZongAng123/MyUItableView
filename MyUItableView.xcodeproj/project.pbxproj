@@ -15,6 +15,9 @@
 		745F1F6E1E5FDB8B00F44655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745F1F6C1E5FDB8B00F44655 /* LaunchScreen.storyboard */; };
 		745F1F791E5FDB8C00F44655 /* MyUItableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F1F781E5FDB8C00F44655 /* MyUItableViewTests.m */; };
 		745F1F841E5FDB8C00F44655 /* MyUItableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F1F831E5FDB8C00F44655 /* MyUItableViewUITests.m */; };
+		745F1F921E5FDBA800F44655 /* default_avatar_shadow.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 745F1F911E5FDBA800F44655 /* default_avatar_shadow.9.png */; };
+		745F1F951E5FDBD300F44655 /* MyUiTabview.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F1F941E5FDBD300F44655 /* MyUiTabview.m */; };
+		745F1F981E5FDC2700F44655 /* MyCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F1F971E5FDC2700F44655 /* MyCellTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		745F1F7F1E5FDB8C00F44655 /* MyUItableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyUItableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		745F1F831E5FDB8C00F44655 /* MyUItableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUItableViewUITests.m; sourceTree = "<group>"; };
 		745F1F851E5FDB8C00F44655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		745F1F911E5FDBA800F44655 /* default_avatar_shadow.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_avatar_shadow.9.png; sourceTree = "<group>"; };
+		745F1F931E5FDBD300F44655 /* MyUiTabview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUiTabview.h; sourceTree = "<group>"; };
+		745F1F941E5FDBD300F44655 /* MyUiTabview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUiTabview.m; sourceTree = "<group>"; };
+		745F1F961E5FDC2700F44655 /* MyCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCellTableViewCell.h; sourceTree = "<group>"; };
+		745F1F971E5FDC2700F44655 /* MyCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCellTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 		745F1F521E5FDB8B00F44655 = {
 			isa = PBXGroup;
 			children = (
+				745F1F911E5FDBA800F44655 /* default_avatar_shadow.9.png */,
 				745F1F5D1E5FDB8B00F44655 /* MyUItableView */,
 				745F1F771E5FDB8C00F44655 /* MyUItableViewTests */,
 				745F1F821E5FDB8C00F44655 /* MyUItableViewUITests */,
@@ -105,6 +114,10 @@
 				745F1F621E5FDB8B00F44655 /* AppDelegate.m */,
 				745F1F641E5FDB8B00F44655 /* ViewController.h */,
 				745F1F651E5FDB8B00F44655 /* ViewController.m */,
+				745F1F931E5FDBD300F44655 /* MyUiTabview.h */,
+				745F1F941E5FDBD300F44655 /* MyUiTabview.m */,
+				745F1F961E5FDC2700F44655 /* MyCellTableViewCell.h */,
+				745F1F971E5FDC2700F44655 /* MyCellTableViewCell.m */,
 				745F1F671E5FDB8B00F44655 /* Main.storyboard */,
 				745F1F6A1E5FDB8B00F44655 /* Assets.xcassets */,
 				745F1F6C1E5FDB8B00F44655 /* LaunchScreen.storyboard */,
@@ -244,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				745F1F6E1E5FDB8B00F44655 /* LaunchScreen.storyboard in Resources */,
+				745F1F921E5FDBA800F44655 /* default_avatar_shadow.9.png in Resources */,
 				745F1F6B1E5FDB8B00F44655 /* Assets.xcassets in Resources */,
 				745F1F691E5FDB8B00F44655 /* Main.storyboard in Resources */,
 			);
@@ -272,6 +286,8 @@
 			files = (
 				745F1F661E5FDB8B00F44655 /* ViewController.m in Sources */,
 				745F1F631E5FDB8B00F44655 /* AppDelegate.m in Sources */,
+				745F1F981E5FDC2700F44655 /* MyCellTableViewCell.m in Sources */,
+				745F1F951E5FDBD300F44655 /* MyUiTabview.m in Sources */,
 				745F1F601E5FDB8B00F44655 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

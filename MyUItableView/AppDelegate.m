@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MyUiTabview.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    _window = [[UIWindow alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
+    _window.backgroundColor = [UIColor whiteColor];
+    MyUiTabview*my = [[MyUiTabview alloc] init];
+    UINavigationController *root = [[UINavigationController alloc]initWithRootViewController:my];
+    _window.rootViewController = root;
+    [_window makeKeyAndVisible];
     return YES;
 }
 

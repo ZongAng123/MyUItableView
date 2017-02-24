@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "745F1F5A1E5FDB8B00F44655"
+               BuildableName = "MyUItableView.app"
+               BlueprintName = "MyUItableView"
+               ReferencedContainer = "container:MyUItableView.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "745F1F731E5FDB8C00F44655"
+               BuildableName = "MyUItableViewTests.xctest"
+               BlueprintName = "MyUItableViewTests"
+               ReferencedContainer = "container:MyUItableView.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "745F1F7E1E5FDB8C00F44655"
+               BuildableName = "MyUItableViewUITests.xctest"
+               BlueprintName = "MyUItableViewUITests"
+               ReferencedContainer = "container:MyUItableView.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "745F1F5A1E5FDB8B00F44655"
+            BuildableName = "MyUItableView.app"
+            BlueprintName = "MyUItableView"
+            ReferencedContainer = "container:MyUItableView.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "745F1F5A1E5FDB8B00F44655"
+            BuildableName = "MyUItableView.app"
+            BlueprintName = "MyUItableView"
+            ReferencedContainer = "container:MyUItableView.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "745F1F5A1E5FDB8B00F44655"
+            BuildableName = "MyUItableView.app"
+            BlueprintName = "MyUItableView"
+            ReferencedContainer = "container:MyUItableView.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
